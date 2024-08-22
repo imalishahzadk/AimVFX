@@ -1,0 +1,58 @@
+.create-new-project {
+    background: linear-gradient(
+      45deg,
+      #05161e,
+      #0c2c3c,
+      #143e4d,
+      #201a38,
+      #0a1a28
+    );
+    backdrop-filter: blur(10px);
+    /* height: 100vh; */
+  }
+
+  .create-new-project .bg-image {
+    opacity: 60%;
+  }
+  
+   .create-new-project-border {
+    background: linear-gradient(45deg, #112140 40%, #10364a ) padding-box,
+      linear-gradient(to bottom, #ffffff, rgba(21, 184, 199, 0)) border-box;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid transparent;
+    padding: 20px;
+  }
+
+   .form-border-2{
+      height: 160vh;
+    background: linear-gradient(196.98deg, #013b49 9.3%, #1bc2cb 84.62%);
+  /* backdrop-filter: blur(10px); */
+  border-radius: 0 0  0 375px; 
+  }
+
+
+   .card-background{
+  background-color: #ffffff25;
+
+
+}
+/* CreateNewProject.css */
+.create-new-project .hide-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Safari */
+}
+
+.create-new-project .hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.create-new-project .grid-cols-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.right-side-head{
+  margin-top: 20%;
+}

@@ -1,0 +1,54 @@
+.solution-page{
+    background: linear-gradient(
+        45deg,
+        #05161e,
+        #0c2c3c,
+        #143e4d,
+        #201a38,
+        #0a1a28
+      );
+      backdrop-filter: blur(10px);
+}
+
+.solution-hero-heading{
+    color: #ffffff;
+    font-family: "Teko", sans-serif;
+    font-size: 80px;
+    line-height: 99px;
+    z-index: 10000;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+.services-right-side-bg-image{
+/* width: 1000px;   */
+height: px;
+/* margin-top: 10%; */
+}
+}
+.solution-arrow-bg-image{
+    width: 80%;
+}
+
+
+/* Apply styles only for screens larger than 768px (tablet and above) */
+@media (min-width: 768px) {
+  .solution-services {
+    margin-top: 120%;
+  }
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Light grey background for better visibility */
+}
+
+.loading-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Dark text color for good contrast */
+}

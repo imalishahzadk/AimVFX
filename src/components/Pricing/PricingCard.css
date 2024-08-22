@@ -1,0 +1,6 @@
+.brief-project {
+  background: linear-gradient(#15b8c700, #15b8c700) padding-box,
+    linear-gradient(to bottom, #ffffff, #15b8c700) border-box;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid transparent;
+}

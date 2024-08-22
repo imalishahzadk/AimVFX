@@ -1,0 +1,47 @@
+.brief-project2 {
+  background: linear-gradient(
+    45deg,
+    #05161e,
+    #0c2c3c,
+    #143e4d,
+    #201a38,
+    #0a1a28
+  );
+  backdrop-filter: blur(10px);
+  /* height: 100vh; */
+}
+
+.brief-project2 .bg-image {
+  opacity: 60%;
+}
+
+.brief-project2-border {
+  background: linear-gradient(45deg, #112140 40%, #10364a) padding-box,
+    linear-gradient(to bottom, #ffffff, rgba(21, 184, 199, 0)) border-box;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid transparent;
+  padding: 20px;
+}
+
+.brief-project2-border-2 {
+  background: linear-gradient(196.98deg, #013b49 9.3%, #1bc2cb 84.62%);
+  height: 160vh;
+  /* backdrop-filter: blur(10px); */
+  border-radius: 0 0 0 275px;
+}
+
+.card-background {
+  background-color: #ffffff25;
+}
+
+@media (max-width: 767px) {
+  .brief-project2-border-2 {
+   
+    border-radius: 0 0 0 125px;
+  }
+}
+
+
+.right-side-heading-brief-project2{
+  margin-top: 60%;
+}

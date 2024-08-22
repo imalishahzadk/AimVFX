@@ -1,0 +1,38 @@
+.signin-page {
+    background: linear-gradient(
+      45deg,
+      #05161e,
+      #0c2c3c,
+      #143e4d,
+      #201a38,
+      #0a1a28
+    );
+    backdrop-filter: blur(10px);
+    /* height: 100vh; */
+  }
+
+  .bg-image {
+    opacity: 60%;
+  }
+  
+  .form-border {
+    background: linear-gradient(45deg, #112140 40%, #10364a ) padding-box,
+      linear-gradient(to bottom, #ffffff, rgba(21, 184, 199, 0)) border-box;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid transparent;
+    padding: 20px;
+  }
+
+  .form-border-2{
+    background: linear-gradient(196.98deg, #013b49 9.3%, #1bc2cb 84.62%);
+    height: 100vh;
+  /* backdrop-filter: blur(10px); */
+  border-radius: 0 0  0 375px; 
+  }
+
+
+.card-background{
+  background-color: #ffffff25;
+
+
+}

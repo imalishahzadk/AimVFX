@@ -1,0 +1,9 @@
+.team-hero-heading{
+    color: #ffffff;
+    /* font-family: "Teko", sans-serif; */
+    font-size: 70px;
+    line-height: 99px;
+    z-index: 10000;
+    width: 100%;
+    text-transform: uppercase;
+}
